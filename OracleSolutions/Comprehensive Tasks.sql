@@ -1,7 +1,7 @@
 --<3>25자 이상의 책이름 출력
 SELECT BOOK_NM
 FROM TB_BOOK
-WHERE LENGTH(BOOK_NM)=25;
+WHERE LENGTH(BOOK_NM)>=25;
 
 --<4> 휴대폰 번호가 019로 시작하는 작가 이름순 정렬 가장 첫번째 사람 출력
 
